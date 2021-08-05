@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_reducteur">
+
+    <fragment
+        android:id="@+id/nav_reducteur"
+        android:name="com.tpjava2.homeactivity.view.ReducteurFragment"
+        android:label="@string/menu_reducteur"
+        tools:layout="@layout/fragment_reducteur" />
+
+    <fragment
+        android:id="@+id/nav_accessoires"
+        android:name="com.tpjava2.homeactivity.view.AccessoiresFragment"
+        android:label="@string/menu_accessoires"
+        tools:layout="@layout/fragment_accessoires" />
+    <fragment
+        android:id="@+id/nav_mobiles"
+        android:name="com.tpjava2.homeactivity.view.MobilesFragment"
+        android:label="ARBRES ET ENGRENAGES"
+        tools:layout="@layout/fragment_mobiles" />
+    <fragment
+        android:id="@+id/nav_carter"
+        android:name="com.tpjava2.homeactivity.view.CarterFragment"
+        android:label="CARTER"
+        tools:layout="@layout/fragment_carter" />
+    <fragment
+        android:id="@+id/nav_visserie"
+        android:name="com.tpjava2.homeactivity.view.VisserieFragment"
+        android:label="LISTE DE LA VISSERIE"
+        tools:layout="@layout/fragment_visserie" />
+    <fragment
+        android:id="@+id/nav_controles"
+        android:name="com.tpjava2.homeactivity.view.ControleFragment"
+        android:label="CONTROLES"
+        tools:layout="@layout/fragment_controle" />
+    <fragment
+        android:id="@+id/nav_taches"
+        android:name="com.tpjava2.homeactivity.view.TacheFragment"
+        android:label="Tâches"
+        tools:layout="@layout/fragment_tache" />
+    <fragment
+        android:id="@+id/nav_liste_accessoires"
+        android:name="com.tpjava2.homeactivity.view.ListeAccessoiresFragment"
+        android:label="fragment_liste_accessoires"
+        tools:layout="@layout/fragment_liste_accessoires" />
+
+    <activity
+        android:id="@+id/nav_galerie"
+        android:name="com.tpjava2.homeactivity.utils.AnnotationActivity"
+        android:label="AnnotationActivity" />
+    <fragment
+        android:id="@+id/nav_pdf"
+        android:name="com.tpjava2.homeactivity.view.PdfFragment"
+        android:label="Création de pdf"
+        tools:layout="@layout/fragment_pdf" />
+    <fragment
+        android:id="@+id/nav_expertise_carter"
+        android:name="com.tpjava2.homeactivity.view.ExpertiseCarterFragment"
+        android:label="fragment_expertise_carter"
+        tools:layout="@layout/fragment_expertise_carter" />
+
+
+</navigation>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+
+        <EditText
+            android:id="@+id/editText_nome_alesage_carter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Nom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_type_alesage_carter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="type"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/editText_diametre_alesage_carter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="diamètre"
+            android:inputType="textPersonName" />
+
+
+        <RadioGroup
+            android:id="@+id/RadioGroup_norme_alesage_carter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_norme_conforme"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Conforme" />
+
+            <RadioButton
+                android:id="@+id/radioButton_norme_non_conforme"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Non conforme" />
+        </RadioGroup>
+
+
+        <ImageButton
+            android:id="@+id/button_supprimer_alesage_carter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@null"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <ImageButton
+            android:id="@+id/imageButton_item_save_alesage_carter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_baseline_check_box_24" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.PagePrincipaleActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_segor" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/reducteur" />
+    <Button
+        android:id="@+id/button_devis_demontage_en_cours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0036EC"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text=" Devis reparation en cours"
+        android:textSize="24sp"
+        app:cornerRadius="5dp" />
+    <Button
+        android:id="@+id/button_nouveau_devis_demontage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0036EC"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Nouveau Devis reparation"
+        android:textSize="24sp"
+        app:cornerRadius="5dp" />
+
+
+
+</LinearLayout>
